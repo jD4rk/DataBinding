@@ -1,0 +1,28 @@
+<resources>
+    <string name="app_name">DataBinding</string>
+
+    <string name="twoWayButton">2-Way Button (BaseObservable)</string>
+    <string name="twoWayButtonBis">2-Way Button (ObservableField)</string>
+    <string name="twoWayButtonThread">2-Way Button (Thread)</string>
+    <string name="twoWayEditTextBindingAdapter">2-Way EditText (Binding Adapter)</string>
+    <string name="twoWayEditTextTextWatcher">2-Way EditText (TextWatcher)</string>
+    <string name="oneWayRecyclerView">1-Way Recycler View</string>
+    <string name="twoWayRecyclerView">2-Way Recycler View</string>
+
+    <string name="action_settings">Settings</string>
+
+    <string name="title_activity_two_way_button_base_observable">Two Way Binding - Button (BaseObservable)</string>
+    <string name="title_activity_two_way_button_observable_field">Two Way Binding - Button (ObservableField)</string>
+    <string name="title_activity_two_way_button_thread">Two Way Binding - Button Thread</string>
+    <string name="title_activity_two_way_edittext_binding">Two Way Binding - EditText (BindingAdapter)</string>
+    <string name="title_activity_two_way_edit_text_text_watcher">Two Way Binding - EditText (TextWatcher)</string>
+    <string name="title_activity_one_way_recycler_view">One Way Binding Recycler View</string>
+    <string name="title_activity_two_way_recycler_view">Two Way Binding Recycler View</string>
+
+    <string name="btnUpdate">Update</string>
+
+    <string name="buttonStart">Start</string>
+    <string name="buttonStop">Stop</string>
+
+
+</resources>
