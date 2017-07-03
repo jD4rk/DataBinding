@@ -28,7 +28,7 @@
         </activity>
         <activity
             android:name=".twoWayEditText_BindingAdapter.SubActivity"
-            android:label="@string/title_activity_two_way_edittext_binding"
+            android:label="@string/title_activity_two_way_edit_text_binding"
             android:parentActivityName=".MainActivity"
             android:theme="@style/AppTheme.NoActionBar">
             <meta-data
@@ -74,6 +74,15 @@
         <activity
             android:name=".twoWayRecyclerView.SubActivity"
             android:label="@string/title_activity_two_way_recycler_view"
+            android:parentActivityName=".MainActivity"
+            android:theme="@style/AppTheme.NoActionBar">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".MainActivity" />
+        </activity>
+        <activity
+            android:name=".twoWayEditText_NativeSupport.SubActivity"
+            android:label="@string/title_activity_two_way_edit_text_native_support"
             android:parentActivityName=".MainActivity"
             android:theme="@style/AppTheme.NoActionBar">
             <meta-data

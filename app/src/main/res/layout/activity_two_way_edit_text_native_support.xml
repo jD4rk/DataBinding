@@ -3,10 +3,10 @@
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools" >
 
-    <data class=".BindingTwoWayEditText_BindingAdapter">
+    <data class=".BindingTwoWayEditText_NativeSupport">
         <variable
             name="data"
-            type="it.jdark.android.databinding.twoWayEditText_BindingAdapter.Data" />
+            type="it.jdark.android.databinding.twoWayEditText_NativeSupport.Data" />
     </data>
 
     <android.support.design.widget.CoordinatorLayout
@@ -43,9 +43,8 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:id="@+id/textEdit"
-                android:text="@{data.string}"
-                android:layout_centerHorizontal="true"
-                app:addTextChangedListener="@{data}" />
+                android:text="@={data.string}"
+                android:layout_centerHorizontal="true" />
 
             <TextView
                 android:layout_width="wrap_content"

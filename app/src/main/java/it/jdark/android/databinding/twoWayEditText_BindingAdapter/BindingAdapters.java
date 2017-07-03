@@ -9,7 +9,6 @@ import android.widget.EditText;
 
 import it.jdark.android.databinding.MainActivity;
 
-@SuppressWarnings("unused")
 public class BindingAdapters {
 
 

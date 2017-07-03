@@ -42,7 +42,7 @@ public class BindingAdapters {
     public static <T> void setItemViewBinder(RecyclerView recyclerView, ItemBinder<T> itemViewMapper) {
         Log.d(TAG, "Binding Adapter: --- itemViewBinder");
         Collection<T> items = (Collection<T>) recyclerView.getTag(KEY_ITEMS);
-        Log.d(TAG, "Binding Adapter: items.size: " + items.size());
+//        Log.d(TAG, "Binding Adapter: items.size: " + items.size());
 //        ClickHandler<T> clickHandler = (ClickHandler<T>) recyclerView.getTag(KEY_CLICK_HANDLER);
         RecyclerViewAdapter<T> adapter = new RecyclerViewAdapter<>(itemViewMapper, items);
 //        if(clickHandler != null)

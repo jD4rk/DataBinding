@@ -6,6 +6,7 @@
         <item>@string/twoWayButtonThread</item>
         <item>@string/twoWayEditTextBindingAdapter</item>
         <item>@string/twoWayEditTextTextWatcher</item>
+        <item>@string/twoWayEditTextNativeSupport</item>
         <item>@string/oneWayRecyclerView</item>
         <item>@string/twoWayRecyclerView</item>
     </string-array>
